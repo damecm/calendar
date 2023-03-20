@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Alumni Sans Inline One', cursive;
+    
+}
+
+.container {
+    background-color: rgb(5, 5, 5);
+    color: rgb(170, 85, 240);
+    font-family: 'Alumni Sans Inline One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header-wrap {
+    font-size: 6em;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.calender-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px;
+
+}
+
+.week-wrap {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1.5px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.days-wrap {
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    gap: 7.5px;
+    
+}
+
+.logo {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: none;
+
+}
+.footer {
+    font-size: 4em;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-weight: 300;
+    text-align: center;
+}
+
+textarea {
+    color: blue;
+    height: 70px;
+    width: 100px;
+}
